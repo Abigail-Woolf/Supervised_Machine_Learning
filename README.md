@@ -1,6 +1,6 @@
 # Supervised_Machine_Learning
--
-## An accuracy score is used to determine the performance of a machine learning model. It works best and most accurately when evaluationg models with continuous target variables. That being said, I think that the accuracy score is not the best test to determine the performance of the models in Module 17. In this module, we are looking into different ways to classify the outcome into one of two discrete variables. The accuracy score of the Random Oversampling technique was 71.14%. The confusion matrix looks like the model classifies things correctly, more than it classifies things incorrectly. That is consistent with the accuracy score. 
+
+An accuracy score is used to determine the performance of a machine learning model. It works best and most accurately when evaluationg models with continuous target variables. That being said, I think that the accuracy score is not the best test to determine the performance of the models in Module 17. In this module, we are looking into different ways to classify the outcome into one of two discrete variables. The accuracy score of the Random Oversampling technique was 71.14%. The confusion matrix looks like the model classifies things correctly, more than it classifies things incorrectly. That is consistent with the accuracy score. 
 -
 Another measure to check is the precision of the model, also known as, positive predictive value (true positives/(true positives + false positives)). Precision is how realible a positive classification is.
 -
