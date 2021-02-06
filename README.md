@@ -1,6 +1,13 @@
 # Supervised Machine Learning Project 
 ## Overview
 For this assignment the task was to create a variety of different ML models to predict credit risk. Because credit risk is inherently unbalanced (there are substantially more good loans than risky ones) I employed different techniques to train and evaluate models with unbalanced classes. I created these models in Python and used imbalanced-learn and sci-kit libraries to build and evaluate the models. Lastly, I made an educated recommendation on whether these models were an accurate or precise enough means for prediction credit risk. 
+## Data
+The ML models in this assignment used data from a peer-to-peer lending services company called LendingClub. The file is located in the Resources folder in the Module_17_Challenge. The file is a CSV called LoanStats_2019Q1.csv
+## Contents
+Folder | Description
+-------|------------
+Machine_Learning_Examples | Contains notebooks and data used in Module's ML examples 
+Module_17_Challenge | Contains final assignment notebook and data file
 
 An accuracy score is used to determine the performance of a machine learning model. It works best and most accurately when evaluationg models with continuous target variables. That being said, I think that the accuracy score is not the best test to determine the performance of the models in Module 17. In this module, we are looking into different ways to classify the outcome into one of two discrete variables. The accuracy score of the Random Oversampling technique was 71.14%. The confusion matrix looks like the model classifies things correctly, more than it classifies things incorrectly. That is consistent with the accuracy score. 
 -
