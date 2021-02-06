@@ -17,7 +17,7 @@ Module_17_Challenge | Contains final assignment notebook and data file
 ## Naive Random Oversampling
 In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minorty classes are balanced. 
 Confusion matrix and Classification Report:
-!(NOS)[https://github.com/Abigail-Woolf/Supervised_Machine_Learning/blob/main/Images/Naive_Rand_Oversampling.png]
+![alt-text](https://github.com/Abigail-Woolf/Supervised_Machine_Learning/blob/main/Images/Naive_Rand_Oversampling.png)
 
 ## SMOTE Oversampling
 Similar to Random Oversampling, instances of the minority class are increased in size. Instead of randomly selecting instances from the minorty class to be increased however, SMOTE interpolates new instances of the minority class based on a number of its closest neighbors. 
