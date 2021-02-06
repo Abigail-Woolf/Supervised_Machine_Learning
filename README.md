@@ -10,11 +10,27 @@ Machine_Learning_Examples | Contains notebooks and data used in Module's ML exam
 Module_17_Challenge | Contains final assignment notebook and data file
 ## Resampling Techniques
 1. Naive Random Oversampling
-2. SMOTE Oversampling
+2. Synthetic minority Oversampling Technique (SMOTE)
 3. Undersampling
 4. Combination Sampling (SMOTEEN)
 
 ## Naive Random Oversampling
+In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minorty classes are balanced. 
+Confusion matrix and Classification Report:
+![]
+
+## SMOTE Oversampling
+Similar to Random Oversampling, instances of the minority class are increased in size. Instead of randomly selecting instances from the minorty class to be increased however, SMOTE interpolates new instances of the minority class based on a number of its closest neighbors. 
+
+## Undersampling
+Undersampling involved decreasing the size of the minority class and I focused on the types: random and cluster centroid undersampling. 
+In Random Undersampling, selected instances from the majoprity class are removed until the size of the majority class is reduced. Typically, it is reduced to the size of the minority class. 
+In Cluster Centroid Undersampling, the algorithm identifies clusters of the majority class, generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down to the size of the minority class. (Similar to SMOTE)
+
+## Combination Sampling (SMOTEEN)
+SMOTEEN is a comnination of SMOTE and Edited Nearest Neighbors (ENN) algorithms. It is a two step process:
+1. Oversample the minority class with SMOTE.
+2. Clean the resulting data by undersampling. When the two nearest neighbors of a data point belong to two different classes, the data point is dropped. 
 
 An accuracy score is used to determine the performance of a machine learning model. It works best and most accurately when evaluationg models with continuous target variables. That being said, I think that the accuracy score is not the best test to determine the performance of the models in Module 17. In this module, we are looking into different ways to classify the outcome into one of two discrete variables. The accuracy score of the Random Oversampling technique was 71.14%. The confusion matrix looks like the model classifies things correctly, more than it classifies things incorrectly. That is consistent with the accuracy score. 
 -
