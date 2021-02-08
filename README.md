@@ -32,8 +32,9 @@ SMOTEEN is a comnination of SMOTE and Edited Nearest Neighbors (ENN) algorithms.
 1. Oversample the minority class with SMOTE.
 2. Clean the resulting data by undersampling. When the two nearest neighbors of a data point belong to two different classes, the data point is dropped. 
 
-## Accuracy Score
-An accuracy score is used to determine the performance of a machine learning model. Accuracy Scores are most accurate when evaluating models with continuous, not discrete, target variables. 
+## Accuracy Scores, Confusion Matrix, and Final Analysis
+An accuracy score is used to determine the performance of a machine learning model. Accuracy Scores are most accurate when evaluating models with continuous, not discrete, target variables.
+
 In this module, we are looking into different ways to classify the outcome into one of two discrete variables. The accuracy score of the Random Oversampling technique was 71.14%. The confusion matrix looks like the model classifies things correctly, more than it classifies things incorrectly. That is consistent with the accuracy score. 
 -
 Another measure to check is the precision of the model, also known as, positive predictive value (true positives/(true positives + false positives)). Precision is how realible a positive classification is.
