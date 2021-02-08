@@ -47,9 +47,7 @@ Classification Report:
 ![alt-text](https://github.com/Abigail-Woolf/Supervised_Machine_Learning/blob/main/Images/SMOTEEN_Classif_Report.png)
 
 ## Final Analysis
-Based on the accuracy scores and classification reports of the above resampling techniques, the best performer is ______. Despite this being the best way of resampling the data, all techniques had similar accuracy scores making accuracy score alone insufficient to make a solid recommendation. 
+Based on the accuracy scores and classification reports all resampling techniques performed about the same. They all had F1 scores of 0.02 except for SMOTEEN which had 0.03 and all had accuracy scores oscillating around 0.70. 
 
-There is a correlation between recall and precision, and there needs to be a balance between the two for a model to perform optimally. The value that represents the optimal combination of recall and precision is called the F1 score. It ranges from 0 to 1, with 1 being the best (or most best performer). 
--
-
-For the ensemble classifiers, the easy ensemble adaboost performed better than the balanced random forest classifier. The accuracy score for this better model was about 91% with an F1 score of 0.16. Compared to all the other models I ran in this module, this one performed substantially better than the rest. 
+Another task completed in this module was implementing two (new to me) ensemble classifiers, easy ensemble Adaboost and balanced random forest, to predict loan risk and evaluate each of the models. 
+For the ensemble classifiers, the easy ensemble adaboost performed better than the balanced random forest classifier with an accuracy score of 0.93 and an F1 score of 0.16. The balanced random forest has an accuracy score of 0.75 and an F1 score of 0.05, making adaboost the obvious winner. 
