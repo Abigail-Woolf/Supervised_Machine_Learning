@@ -35,7 +35,7 @@ In Cluster Centroid Undersampling, the algorithm identifies clusters of the majo
 Accuracy_Score = 0.695
 
 Classification Report:
-![alt-text] (https://github.com/Abigail-Woolf/Supervised_Machine_Learning/blob/main/Images/Undersample_Classif_Report.png)
+![alt-text](https://github.com/Abigail-Woolf/Supervised_Machine_Learning/blob/main/Images/Undersample_Classif_Report.png)
 
 ## Combination Sampling (SMOTEEN)
 SMOTEEN is a comnination of SMOTE and Edited Nearest Neighbors (ENN) algorithms. It is a two step process:
